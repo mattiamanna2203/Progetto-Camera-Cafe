@@ -24,6 +24,7 @@ Lo step finale è stato quello del calcolo dei vari indici  per far funzionare l
 
 La search engine è definita come una **classe** python ed è contenuta nel file **SearchEngine_class.py**.	
 Questa engine possiede due modalità di utilizzo:	
+
 	- Una ranking engine che sfrutta td-idf e cosine similarity;		
 	-  Ed una più base incentrata solo sull'occorrenza/ non occorrenza delle parole.	
 
@@ -40,6 +41,7 @@ Pacchetti necessari:
 	
 
 Mentre per l'utilizzo della search engine sono necessari il pacchetto:		
+
 	 - **nltk**		
 	 - **spacy** in particolare di spacy `'it_core_news_sm' 		
 	 	(python -m spacy download it_core_news_sm)		
