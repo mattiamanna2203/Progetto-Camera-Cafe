@@ -1,8 +1,8 @@
-Il progetto camera cafe, mette insieme alcune delle  conoscenze acquisite durante questi anni di studio:
-	- Il web scraping per l'estrazione di dati utili da wikipedia ed il loro preprocessing;		
-	- Il modello whisper di openAI per la trascrizione di file audio;		
-	- La teoria di una ranking engine basata su td-idf o ad una search engine più 
-		standard  basate sull' occorrenza o non occorrenza di una parola;		
+Il progetto camera cafe, mette insieme alcune delle  conoscenze acquisite durante questi anni di studio:	
+	- Il web scraping per l'estrazione di dati utili da wikipedia ed il loro preprocessing;			
+	- Il modello whisper di openAI per la trascrizione di file audio;			
+	- La teoria di una ranking engine basata su td-idf o ad una search engine più 	
+	standard  basate sull' occorrenza o non occorrenza di una parola;		
 	- La sintassi e le classi python che sono alla base di questo progetto.		
 
 Ad oggi esiste una versione flask di questa search/ranking engine pronta ad essere pubblicata, tuttavia per i costi di deploy ancora non è stata pubblicata.
