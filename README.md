@@ -37,6 +37,7 @@ Oltre alla funzione di limitare il numero di risultati in output o di ricercare 
 I file di trascrizione e di pulizia dati non funzioneranno in quanto i dati sono assenti, mentre la search engine funziona ed è scaricabile,  per poterla far funzionare potrebbe essere necessario cambiare alcuni percorsi file (i percorsi file sono sempre modificabili all'inizio dello script) e ovviamente è necessario avere python ed i pacchetti necessari installati sul proprio pc.
 
 Pacchetti necessari:		
+
 	- Nel file **whisper.yml** si possono trovare i pacchetti necessari per utilizzare il modello whisper di open AI	
 	
 
