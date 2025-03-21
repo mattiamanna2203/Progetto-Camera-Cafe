@@ -1,9 +1,9 @@
 Il progetto camera cafe, mette insieme alcune delle  conoscenze acquisite durante questi anni di studio:
-	- Il web scraping per l'estrazione di dati utili da wikipedia ed il loro preprocessing;
-	- Il modello whisper di openAI per la trascrizione di file audio;
+	- Il web scraping per l'estrazione di dati utili da wikipedia ed il loro preprocessing;		
+	- Il modello whisper di openAI per la trascrizione di file audio;		
 	- La teoria di una ranking engine basata su td-idf o ad una search engine più 
-		standard  basate sull' occorrenza o non occorrenza di una parola;
-	- La sintassi e le classi python che sono alla base di questo progetto.
+		standard  basate sull' occorrenza o non occorrenza di una parola;		
+	- La sintassi e le classi python che sono alla base di questo progetto.		
 
 Ad oggi esiste una versione flask di questa search/ranking engine pronta ad essere pubblicata, tuttavia per i costi di deploy ancora non è stata pubblicata.
 
@@ -22,9 +22,10 @@ Una volta terminato il processo di estrazione dati tramite lo script **01_Pulizi
 Lo step finale è stato quello del calcolo dei vari indici  per far funzionare la search engine come tf-idf tramite lo script **02_Create_index.ipynb*.
 
 La search engine è definita come una **classe** python ed è contenuta nel file **SearchEngine_class.py**.	
-Questa engine possiede due modalità di utilizzo:
-	- Una ranking engine che sfrutta td-idf e cosine similarity;
-	-  Ed una più base incentrata solo sull'occorrenza/ non occorrenza delle parole.
+Questa engine possiede due modalità di utilizzo:	
+	- Una ranking engine che sfrutta td-idf e cosine similarity;		
+	-  Ed una più base incentrata solo sull'occorrenza/ non occorrenza delle parole.	
+
 
 Entrambe le engine concedono la possibilità di restringere il campo di ricerca tramite delle flag, ad esempio la presenza di un determinato attore, oppure restringere la ricerca ad una stagione specifica.
 Oltre alla funzione di limitare il numero di risultati in output o di ricercare nel titolo e  nella trama della puntata oppure su tutto il testo della puntata.
@@ -33,15 +34,16 @@ Oltre alla funzione di limitare il numero di risultati in output o di ricercare 
 
 I file di trascrizione e di pulizia dati non funzioneranno in quanto i dati sono assenti, mentre la search engine funziona ed è scaricabile,  per poterla far funzionare potrebbe essere necessario cambiare alcuni percorsi file (i percorsi file sono sempre modificabili all'inizio dello script) e ovviamente è necessario avere python ed i pacchetti necessari installati sul proprio pc.
 
-Pacchetti necessari:
-	- Nel file **whisper.yml** si possono trovare i pacchetti necessari per utilizzare il modello whisper di open AI
+Pacchetti necessari:		
+	- Nel file **whisper.yml** si possono trovare i pacchetti necessari per utilizzare il modello whisper di open AI	
+	
 
-Mentre per l'utilizzo della search engine sono necessari il pacchetto:
-	 - **nltk**
-	 - **spacy** in particolare di spacy `'it_core_news_sm' 
-	 	(python -m spacy download it_core_news_sm)
-	 - **sklearn**
-	 - **pyarrow** pacchetti per maneggiare 
+Mentre per l'utilizzo della search engine sono necessari il pacchetto:		
+	 - **nltk**		
+	 - **spacy** in particolare di spacy `'it_core_news_sm' 		
+	 	(python -m spacy download it_core_news_sm)		
+	 - **sklearn**		
+	 - **pyarrow** pacchetti per maneggiare 		
 	
 
 
